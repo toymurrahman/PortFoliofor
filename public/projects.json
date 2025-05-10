@@ -1,0 +1,279 @@
+{
+  "teamProjects": [
+    {
+      "id": "1",
+      "title": "BasaFinder",
+      "image": "https://i.postimg.cc/W3HRdVpg/image.png",
+      "image2": "https://i.ibb.co.com/qF1HbPcH/bf2.jpg",
+      "image3": "https://i.ibb.co.com/svQRVq9y/bf3.jpg",
+      "image4": "https://i.ibb.co.com/5XsFbLLc/bf4.jpg",
+      "live": "https://basa-finder-psi.vercel.app/",
+      "description": "A full-stack rental housing solution with role-based dashboards for admin, landlords, and tenants.",
+      "coreFeatures": [
+        "JWT-based role authentication (Landlord, Tenant, Admin)",
+        "Browse, search, and filter rental listings",
+        "Landlords can create, edit, and delete listings",
+        "Tenants can submit rental requests",
+        "Payment option appears after request approval",
+        "Admins manage users and all listings",
+        "Email notifications for important actions",
+        "Mobile responsive and clean UI/UX",
+        "SEO-friendly using Next.js features"
+      ],
+      "challenges": [
+        "Ensuring a seamless user experience across multiple roles (Landlord, Tenant, Admin)",
+        "Handling real-time rental request approvals and payment flows",
+        "Ensuring secure authentication and data integrity for all users"
+      ],
+      "futurePlans": [
+        "Add machine learning to recommend listings based on user preferences",
+        "Introduce a mobile app for better accessibility",
+        "Enhance search filters with AI-based suggestions"
+      ],
+      "technology": [
+        "Next.js",
+        "TypeScript",
+        "Redux Toolkit",
+        "Node.js",
+        "Express",
+        "Mongoose",
+        "JWT"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "BikeZone",
+      "image": "https://i.postimg.cc/2SD5kQKm/image.png",
+      "image2": "https://i.ibb.co.com/z9BYVtp/bz2.jpg",
+      "image3": "https://i.ibb.co.com/HT6jQNfr/bz3.jpg",
+      "image4": "https://i.ibb.co.com/DHszhJMP/bz4.jpg",
+      "live": "https://bike-zone-six.vercel.app/",
+      "description": "An e-commerce platform for buying and selling bikes with category filtering, secure login, and admin features.",
+      "coreFeatures": [
+        "Authentication & Authorization (JWT-based)",
+        "User registration and secure login",
+        "Product browsing with category filtering",
+        "Admin panel to manage products and users",
+        "Real-time order handling",
+        "Checkout with payment integration (SurjoPay)",
+        "Product management (CRUD)",
+        "Role-based access (Customer, Admin)"
+      ],
+      "challenges": [
+        "Maintaining security and data integrity in a dynamic e-commerce environment",
+        "Handling real-time updates for stock and orders",
+        "Optimizing the site for speed and mobile responsiveness"
+      ],
+      "futurePlans": [
+        "Expand product categories and introduce new features like reviews and ratings",
+        "Integrate more payment options for global customers",
+        "Improve search and filtering capabilities with AI-based suggestions"
+      ],
+      "technology": [
+        "React",
+        "TypeScript",
+        "Redux Toolkit",
+        "Node.js",
+        "Express",
+        "Mongoose"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "QuickFit",
+      "image": "https://i.postimg.cc/2yWzmydV/image.png",
+      "image2": "https://i.ibb.co.com/G4zXW1NZ/qf3.jpg",
+      "image3": "https://i.ibb.co.com/YB5sPqFD/qf4.jpg",
+      "image4": "https://i.ibb.co.com/JWfXKwwD/qf5.jpg",
+      "live": "https://quick-fit-client.vercel.app/",
+      "description": "A fitness tracking web app that allows users to log workouts, monitor progress, and stay fit.",
+      "coreFeatures": [
+        "Personalized fitness plans and progress tracking",
+        "Workout routines and meal plans tailored to individual goals",
+        "Community support with forums and challenges",
+        "E-Shop for fitness-related products",
+        "Health and fitness calculators (e.g., BMI, calories burned)",
+        "Motivational articles and content",
+        "Subscription-based premium features"
+      ],
+      "challenges": [
+        "Creating personalized content for users based on fitness goals",
+        "Building an interactive and engaging community platform",
+        "Maintaining accurate data tracking and analytics for users"
+      ],
+      "futurePlans": [
+        "Integrate wearables like fitness trackers to sync workout data",
+        "Introduce live streaming for fitness classes",
+        "Expand the e-shop with more fitness products and tools"
+      ],
+      "technology": ["NextJS", "Node.js", "Express", "Mongoose", "Firebase"]
+    }
+  ],
+  "singleProjects": [
+    {
+      "id": "4",
+      "title": "Eco Mart",
+      "image": "https://i.postimg.cc/gkd4KrbW/EcoMart.png",
+      "image2": "https://i.ibb.co.com/RqPh1V4/em2.jpg",
+      "image3": "https://i.ibb.co.com/DfKk9gs3/em3.jpg",
+      "image4": "https://i.ibb.co.com/VWg4vsZn/em4.jpg",
+      "live": "https://ecomart-client.vercel.app/",
+      "description": "Eco Mart is a full-stack e-commerce platform designed for seamless shopping and donation-based campaigns. It supports secure checkout, user authentication, admin management, and real-time product tracking.",
+      "coreFeatures": [
+        "Product listing and category management",
+        "Add to cart and secure checkout",
+        "Role-based dashboard for admin and users",
+        "Integrated payment system",
+        "Real-time order tracking",
+        "MongoDB for data persistence",
+        "Reusable components with shadcn/ui"
+      ],
+      "challenges": [
+        "Integrating secure and reliable payment gateways",
+        "Maintaining backend and frontend data sync",
+        "Ensuring scalable and modular project structure"
+      ],
+      "futurePlans": [
+        "Add product review and rating system",
+        "Integrate multiple vendor support",
+        "Enhance PWA support and offline capabilities"
+      ],
+      "technology": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "JWT",
+        "ShurjoPay Payment"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Basa Finser (Renovate)",
+      "image": "https://i.postimg.cc/W3HRdVpg/image.png",
+      "image2": "https://i.ibb.co.com/qF1HbPcH/bf2.jpg",
+      "image3": "https://i.ibb.co.com/svQRVq9y/bf3.jpg",
+      "image4": "https://i.ibb.co.com/5XsFbLLc/bf4.jpg",
+      "live": "https://basa-finder-client-mu.vercel.app/",
+      "description": "A full-stack rental housing solution with role-based dashboards for admin, landlords, and tenants.",
+      "coreFeatures": [
+        "JWT-based role authentication (Landlord, Tenant, Admin)",
+        "Browse, search, and filter rental listings",
+        "Landlords can create, edit, and delete listings",
+        "Tenants can submit rental requests",
+        "Payment option appears after request approval",
+        "Admins manage users and all listings",
+        "Email notifications for important actions",
+        "Mobile responsive and clean UI/UX",
+        "SEO-friendly using Next.js features"
+      ],
+      "challenges": [
+        "Ensuring a seamless user experience across multiple roles (Landlord, Tenant, Admin)",
+        "Handling real-time rental request approvals and payment flows",
+        "Ensuring secure authentication and data integrity for all users"
+      ],
+      "futurePlans": [
+        "Add machine learning to recommend listings based on user preferences",
+        "Introduce a mobile app for better accessibility",
+        "Enhance search filters with AI-based suggestions"
+      ],
+      "technology": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Mongoose",
+        "JWT",
+        "ShurjoPay Payment"
+      ]
+    },
+
+    {
+      "id": "6",
+      "title": "Donation Campaign",
+      "image": "https://i.postimg.cc/SQC4ydJs/image.png",
+      "live": "https://donation-campaign-project.netlify.app/",
+      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
+      "coreFeatures": [
+        "Campaign creation",
+        "Donation tracking",
+        "Donor management"
+      ],
+      "challenges": [
+        "Ensuring secure donations",
+        "Maintaining real-time updates on contributions"
+      ],
+      "futurePlans": [
+        "Integration with multiple payment gateways",
+        "Improved user interface for donors"
+      ],
+      "technology": ["React", "Tailwind"]
+    },
+    {
+      "id": "7",
+      "title": "PH Tube",
+      "image": "https://i.postimg.cc/jqmD1ZBS/image.png",
+      "live": "https://ph-tube-website.netlify.app/",
+      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
+      "coreFeatures": [
+        "Campaign creation",
+        "Donation tracking",
+        "Donor management"
+      ],
+      "challenges": [
+        "Ensuring secure donations",
+        "Maintaining real-time updates on contributions"
+      ],
+      "futurePlans": [
+        "Integration with multiple payment gateways",
+        "Improved user interface for donors"
+      ],
+      "technology": ["JavaScript", "Tailwind"]
+    },
+    {
+      "id": "7",
+      "title": "Summer Sale",
+      "image": "https://i.postimg.cc/vZdv6W73/image.png",
+      "live": "https://summer1-sale.netlify.app/",
+      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
+      "coreFeatures": [
+        "Campaign creation",
+        "Donation tracking",
+        "Donor management"
+      ],
+      "challenges": [
+        "Ensuring secure donations",
+        "Maintaining real-time updates on contributions"
+      ],
+      "futurePlans": [
+        "Integration with multiple payment gateways",
+        "Improved user interface for donors"
+      ],
+      "technology": ["React", "Tailwind"]
+    },
+    {
+      "id": "9",
+      "title": "Antopolis",
+      "image": "https://i.postimg.cc/XNsMLY1f/image.png",
+      "live": "https://antopolish.netlify.app/",
+      "description": "Landing Page",
+      "coreFeatures": [
+        "Campaign creation",
+        "Donation tracking",
+        "Donor management"
+      ],
+      "challenges": [
+        "Ensuring secure donations",
+        "Maintaining real-time updates on contributions"
+      ],
+      "futurePlans": [
+        "Integration with multiple payment gateways",
+        "Improved user interface for donors"
+      ],
+      "technology": ["React", "CSS"]
+    }
+  ]
+}
