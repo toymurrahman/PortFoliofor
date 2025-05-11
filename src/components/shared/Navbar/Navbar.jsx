@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="shadow-sm sticky top-0 bg-[#0f0f0f] z-10">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl">
-          <h1 className="italic font-light">Jannatul</h1>
+          <h1 className="font-bold uppercase text-gray-200 ">Jannatul</h1>
         </Link>
         <div className="hidden md:flex space-x-8 items-center">
           {links.map((link) => (

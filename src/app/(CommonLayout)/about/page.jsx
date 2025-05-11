@@ -1,5 +1,3 @@
-
-
 import {
   Card,
   CardContent,
@@ -8,7 +6,6 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaPencilAlt, FaPlane, FaMusic, FaCoffee } from "react-icons/fa";
 import Link from "next/link";
@@ -31,14 +28,14 @@ const AboutPage = () => {
         {/* Profile Card */}
         <Card className="text-center gradiants self-start">
           <CardHeader className="flex flex-col items-center">
-            <Image
+            <img
               src="https://i.postimg.cc/BnZYDy8v/ul.png"
               alt="Profile"
-              width={120}
-              height={120}
+              width="120"
+              height="120"
               className="object-cover rounded-full border-4 border-gray-700"
-              priority
             />
+
             <CardTitle className="text-white mt-4 text-2xl sm:text-3xl">
               Jannatul Ferdous
             </CardTitle>
@@ -74,7 +71,10 @@ const AboutPage = () => {
             <h2 className="text-2xl font-semibold mb-3">About Me</h2>
             <p className="text-lg text-gray-200 mb-2">So, who am I?</p>
             <p className="text-base text-gray-400 leading-relaxed">
-              I'm Jannatul Ferdous, from Dhaka. I hold a BSc in Computer Science Engineering from Daffodil International University (CGPA 3.47). Passionate about coding, problem-solving, and contributing to open-source.
+              I'm Jannatul Ferdous, from Dhaka. I hold a BSc in Computer Science
+              Engineering from Daffodil International University (CGPA 3.47).
+              Passionate about coding, problem-solving, and contributing to
+              open-source.
             </p>
             <div className="flex  text-gray-400 gap-6 pt-5 ">
               <div className="font-medium  space-y-1">
@@ -100,20 +100,22 @@ const AboutPage = () => {
             <div>
               <h3 className="text-lg font-medium">
                 MERN Stack Developer{" "}
-                <span className="text-gray-400 font-normal">
-                  | Antopolis
-                </span>
+                <span className="text-gray-400 font-normal">| Antopolis</span>
               </h3>
               <p className="text-sm text-gray-400">Apr 2024 - Jul 2024</p>
               <p className="mt-2 text-gray-400">
-                Built full-stack web applications using MongoDB, Express, React, NextJS, and Node.js. Integrated REST APIs and worked in teams to build scalable, responsive platforms.
+                Built full-stack web applications using MongoDB, Express, React,
+                NextJS, and Node.js. Integrated REST APIs and worked in teams to
+                build scalable, responsive platforms.
               </p>
             </div>
           </section>
 
           {/* Interests */}
           <section className="py-6">
-            <h2 className="text-2xl font-semibold mb-6 text-center md:text-left">My Interests</h2>
+            <h2 className="text-2xl font-semibold mb-6 text-center md:text-left">
+              My Interests
+            </h2>
             <div className="flex flex-wrap justify-center md:justify-start gap-6">
               {interests.map((item, idx) => (
                 <div

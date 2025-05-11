@@ -4,14 +4,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
+
 
 const HeroCard = () => {
   return (
     <Card className="h-full rounded-md py-0 gradiants text-white">
       <div className="grid lg:grid-cols-2 h-full items-center">
         <div className="relative flex justify-center items-center h-full">
-          <Image
+          <img
             src="https://i.postimg.cc/BnZYDy8v/ul.png"
             alt="Profile"
             width={70}
