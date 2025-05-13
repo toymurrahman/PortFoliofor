@@ -114,38 +114,44 @@
         "JWT (Authentication)"
       ]
     },
-    {
-      "id": "8",
-      "title": "NewsWave",
-      "image": "https://i.postimg.cc/C5tVsMvB/nw.png",
-      "live": "https://newswave-84009.web.app/",
-      "description": "NewsWave is a news aggregation platform that categorizes articles by topic, allowing users to explore the latest headlines. It features dynamic UI elements using React and Firebase for backend services.",
+        {
+      "id": "9",
+      "title": "Job Hunts",
+      "image": "https://i.postimg.cc/76y2V7s7/jh.jpg",
+      "image2": "https://i.postimg.cc/yYNSv7Pf/jh2.jpg",
+      "image3": "https://i.postimg.cc/DyY4NRp7/jh3.jpg",
+      "live": "https://job-portal-cf73e.web.app/",
+      "description": "A streamlined job hunting platform to post jobs, apply for opportunities, and track your applications—all in one place.",
       "coreFeatures": [
-        "Categorized news articles by topic (e.g., Sports, Technology, Politics)",
-        "Real-time updates and article fetching with Firebase integration",
-        "Dynamic UI with smooth scrolling using React Marquee and Fast Marquee",
-        "Search and filter articles by category and keywords, responsive design"
+        "Job posting and management",
+        "Application tracking",
+        "User job activity dashboard"
       ],
       "challenges": [
-        "Handling real-time news updates and ensuring efficient data fetching from Firebase",
-        "Designing a smooth and responsive UI with dynamic marquee and scrolling elements",
-        "Implementing an intuitive search and filter system for users to easily browse categories"
+        "Real-time data synchronization",
+        "User role and data consistency management"
       ],
       "futurePlans": [
-        "Integrate personalized news recommendations based on user interests",
-        "Add user authentication for saving favorite articles and preferences",
-        "Implement push notifications for breaking news and real-time updates"
+        "Resume builder integration",
+        "AI-based job recommendations",
+        "Interview scheduling and reminders"
       ],
       "technology": [
-        "React.js",
+        "Axios",
         "Firebase",
-        "Match-sorter",
-        "Moment.js",
-        "React Fast Marquee",
-        "React Router DOM",
-        "Sort-by"
+        "Framer Motion",
+        "Lottie-react",
+        "Lucide-react",
+        "Motion",
+        "React",
+        "React-dom",
+        "React-icons",
+        "React-router-dom",
+        "Sort-by",
+        "Tailwind CSS"
       ]
     },
+    
     {
       "id": "7",
       "title": "Coffee Store",
@@ -179,25 +185,37 @@
       ]
     },
     {
-      "id": "9",
-      "title": "Antopolis",
-      "image": "https://i.postimg.cc/XNsMLY1f/image.png",
-      "live": "https://antopolish.netlify.app/",
-      "description": "Landing Page",
+      "id": "8",
+      "title": "NewsWave",
+      "image": "https://i.postimg.cc/C5tVsMvB/nw.png",
+      "live": "https://newswave-84009.web.app/",
+      "description": "NewsWave is a news aggregation platform that categorizes articles by topic, allowing users to explore the latest headlines. It features dynamic UI elements using React and Firebase for backend services.",
       "coreFeatures": [
-        "Campaign creation",
-        "Donation tracking",
-        "Donor management"
+        "Categorized news articles by topic (e.g., Sports, Technology, Politics)",
+        "Real-time updates and article fetching with Firebase integration",
+        "Dynamic UI with smooth scrolling using React Marquee and Fast Marquee",
+        "Search and filter articles by category and keywords, responsive design"
       ],
       "challenges": [
-        "Ensuring secure donations",
-        "Maintaining real-time updates on contributions"
+        "Handling real-time news updates and ensuring efficient data fetching from Firebase",
+        "Designing a smooth and responsive UI with dynamic marquee and scrolling elements",
+        "Implementing an intuitive search and filter system for users to easily browse categories"
       ],
       "futurePlans": [
-        "Integration with multiple payment gateways",
-        "Improved user interface for donors"
+        "Integrate personalized news recommendations based on user interests",
+        "Add user authentication for saving favorite articles and preferences",
+        "Implement push notifications for breaking news and real-time updates"
       ],
-      "technology": ["React", "CSS"]
+      "technology": [
+        "React.js",
+        "Firebase",
+        "Match-sorter",
+        "Moment.js",
+        "React Fast Marquee",
+        "React Router DOM",
+        "Sort-by"
+      ]
     }
+
   ]
 }
