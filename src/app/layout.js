@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Jannatul Ferdous",
+  title: "Toymur Rahman ",
   description:
-    "Welcome to the portfolio of Jannatul Ferdous — a full-stack developer specializing in the MERN stack.",
+    "Welcome to the portfolio of Toymur Rahman — a full-stack developer specializing in the MERN stack.",
 };
 
 export default function RootLayout({ children }) {

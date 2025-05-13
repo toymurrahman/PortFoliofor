@@ -2,10 +2,10 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import projectData from "../../../../../public/projects.json";
 import { CheckCircle } from "lucide-react";
+import ProjectCarousel from "@/src/components/pages/Projects/ProjectCarousel";
 
 export async function generateStaticParams() {
   const allProjects = [
-    ...projectData.teamProjects,
     ...projectData.singleProjects,
   ];
   return allProjects.map((project) => ({ id: project.id }));
@@ -15,7 +15,6 @@ const ProjectDetailsPage = async ({ params }) => {
   const { id } = await params;
 
   const allProjects = [
-    ...projectData.teamProjects,
     ...projectData.singleProjects,
   ];
   const project = allProjects.find((p) => p.id === id);
@@ -27,20 +26,8 @@ const ProjectDetailsPage = async ({ params }) => {
   return (
     <div className="bg-[#0f0f0f] text-white  p-6 sm:p-8 md:p-10 lg:p-12">
       <div className="relative  mx-auto w-full px-4 mb-10">
-        <div className="mx-auto w-full ">
-          <Image
-            src={project?.image}
-            alt={project?.title}
-            width={1200}
-            height={800}
-            className="
-        rounded-xl shadow-lg object-cover
-         sm:h-[50vh] md:h-[25vh] lg:h-[25vh] xl:h-[70vh]
-        w-full
-        transition-all duration-500 ease-in-out hover:scale-105
-      "
-            priority
-          />
+        <div className="mx-auto w-full h-[50vh] sm:h-[50vh] md:h-[25vh] lg:h-[25vh] xl:h-[70vh] rounded-xl overflow-hidden shadow-lg">
+             <ProjectCarousel title={project?.title} />
         </div>
       </div>
       <h1 className="text-3xl font-extrabold text-center text-white mb-4 sm:text-4xl md:text-5xl">

@@ -1,12 +1,11 @@
 export const metadata = {
-  title: "Skills | Jannatul Ferdous",
+  title: "Skills | Toymur Rahman",
 };
 const SkillsPage = () => {
   const techStack = [
     "html",
     "css",
     "javascript",
-    "typescript",
     "react",
     "nextjs",
     "tailwind",
@@ -15,13 +14,13 @@ const SkillsPage = () => {
     "express",
     "mongodb",
     "firebase",
-    "redux",
+    "tanstack",
     "vscode",
     "vercel",
     "netlify",
     "figma",
     "bootstrap",
-    "mui",
+    "materialui",
     "github",
     "git",
     "postman",
@@ -43,6 +42,7 @@ const SkillsPage = () => {
               key={idx}
               src={`https://skillicons.dev/icons?i=${tech}`}
               alt={tech}
+              title={tech}
               className="h-10"
             />
           ))}

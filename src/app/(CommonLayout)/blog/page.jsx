@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Blog | Jannatul Ferdous",
+  title: "Blog | Toymur Rahman",
 };
 const BlogPage = () => {
   return (
@@ -12,7 +12,7 @@ const BlogPage = () => {
           I'm currently cooking up some awesome articles on web development,
           React, UI/UX, and everything in between. Stay tuned! ✨👨‍💻
         </p>
-        <p className="text-sm text-white ">— Jannatul Ferdous</p>
+        <p className="text-sm text-white ">— Toymur Rahman</p>
       </div>
     </div>
   );

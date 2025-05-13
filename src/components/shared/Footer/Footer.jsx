@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="text-center py-6">
-      <h1 className="italic font-light">Jannatul</h1>
+      <h1 className="italic font-light">Toymur Rahman</h1>
       <div className="mt-3">
         <ul className="flex-row gap-5 md:flex justify-center items-center  text-gray-400">
           <li>
@@ -34,7 +34,7 @@ const Footer = () => {
         @ Made with
         <Heart className="text-white mx-2" size={16} />
         &amp; by
-        <span className="text-white pl-2 font-semibold">Jannatul Ferdous</span>
+        <span className="text-white pl-2 font-semibold">Toymur Rahman (Tonmoy)</span>
       </h1>
     </div>
   );

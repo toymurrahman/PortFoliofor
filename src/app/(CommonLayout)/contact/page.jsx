@@ -1,6 +1,6 @@
 import Contact from "@/src/components/pages/Contact/Contact";
 export const metadata = {
-  title: "Contact | Jannatul Ferdous",
+  title: "Contact | Toymur Rahman",
 };
 const ContactPage = () => {
   return (

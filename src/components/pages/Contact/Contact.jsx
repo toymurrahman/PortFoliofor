@@ -77,7 +77,7 @@ const Contact = () => {
             <MdEmail className="text-2xl mt-1 text-white" />
             <div>
               <h4 className="text-sm font-medium text-[#737373]">EMAIL</h4>
-              <p className="text-lg">jannatul0040@gmail.com</p>
+              <p className="text-lg">rahmantoymur2@gmail.com</p>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ const Contact = () => {
             <MdPhone className="text-2xl mt-1 text-white" />
             <div>
               <h4 className="text-sm font-medium text-[#737373]">CONTACT</h4>
-              <p className="text-lg">+880 1766401933</p>
+              <p className="text-lg">+880 1623385441</p>
             </div>
           </div>
 
@@ -99,16 +99,16 @@ const Contact = () => {
           <div className="space-y-4">
             <h2 className="uppercase text-xl font-semibold">Social</h2>
             <div className="flex  gap-4 text-xl text-white">
-              <a href="https://github.com/jannat710" target="blank">
+              <a href="https://github.com/toymurrahman" target="blank">
                 <FaGithub className="bg-[#383737] shadow-2xl p-3 text-5xl rounded-full" />
               </a>
-              <a href="https://www.linkedin.com/in/jannatul38/" target="blank">
+              <a href="https://www.linkedin.com/in/toymur-rahman-tonmoy/" target="blank">
                 <FaLinkedin className="bg-[#383737] shadow-2xl p-3 text-5xl rounded-full" />
               </a>
-              <a href="https://x.com/jannatul_zz" target="blank">
+              <a href="https://x.com/ToymurRahman10" target="blank">
                 <FaTwitter className="bg-[#383737] shadow-2xl p-3 text-5xl rounded-full" />
               </a>
-              <a href="https://www.facebook.com/jannatulfee" target="blank">
+              <a href="https://www.facebook.com/toymur.rahmantonmoy" target="blank">
                 <FaFacebook className="bg-[#383737] shadow-2xl p-3 text-5xl rounded-full" />
               </a>
             </div>

@@ -12,7 +12,7 @@ const HeroCard = () => {
       <div className="grid lg:grid-cols-2 h-full items-center">
         <div className="relative flex justify-center items-center h-full">
           <img
-            src="https://i.postimg.cc/BnZYDy8v/ul.png"
+            src='https://i.ibb.co/Fk3DQNWg/formal.png'
             alt="Profile"
             width={70}
             height={70}
@@ -24,7 +24,7 @@ const HeroCard = () => {
         <div className="w-full mx-auto sm:px-4 pb-10 md:pb-0">
           <CardHeader>
             <CardDescription>MERN Stack Developer</CardDescription>
-            <CardTitle className="text-3xl">Jannatul Ferdous</CardTitle>
+            <CardTitle className="text-3xl">Toymur Rahman</CardTitle>
             <CardDescription>
               Who loves turning ideas into interactive, user-friendly web
               experiences.

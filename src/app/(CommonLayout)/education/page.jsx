@@ -1,28 +1,28 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 export const metadata = {
-  title: "Education | Jannatul Ferdous",
+  title: "Education | Toymur Rahman",
 };
 const educationData = [
   {
-    institute: "Daffodil International University",
+    institute: "Institute of Science Trade and Technology (ISTT)",
     degree: "B.Sc. in Computer Science & Engineering",
     duration: "2019 - 2022",
-    result: "CGPA: 3.47 / 4.00",
+    result: "CGPA: 3.19 / 4.00",
     location: "Dhaka, Bangladesh",
   },
   {
-    institute: "Aftab Uddin School & College",
+    institute: "Abdus Sattar Degree College",
     degree: "Higher Secondary Certificate (HSC)",
     duration: "2016 - 2018",
-    result: "GPA: 3.92 / 5.00",
-    location: "Dhaka, Bangladesh",
+    result: "GPA: 3.30 / 5.00",
+    location: "Cumilla, Bangladesh",
   },
   {
-    institute: "Pakshimul High School",
+    institute: "Pakshimul Hazi Shisu Mia High School",
     degree: "Secondary School Certificate (SSC)",
     duration: "2014 - 2016",
-    result: "GPA: 4.22 / 5.00",
+    result: "GPA: 4.06 / 5.00",
     location: "Cumilla, Bangladesh",
   },
 ];

@@ -24,6 +24,7 @@ const ProjectGroup = ({ title, projects }) => {
                 className="w-full h-48 object-cover rounded-xl shadow-md"
                 priority
               />
+
             </div>
 
             <div className="p-5 flex flex-col flex-grow">
@@ -53,11 +54,10 @@ const ProjectGroup = ({ title, projects }) => {
   );
 };
 
-const Projects = ({ teamProjects, singleProjects }) => {
+const Projects = ({ singleProjects }) => {
   return (
     <div className="px-4 sm:px-6 lg:px-12 py-8 bg-[#121212] min-h-screen">
-      <ProjectGroup title="Team Projects" projects={teamProjects} />
-      <ProjectGroup title="Single Projects" projects={singleProjects} />
+      <ProjectGroup title=" Projects" projects={singleProjects} />
     </div>
   );
 };

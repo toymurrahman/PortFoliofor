@@ -6,19 +6,22 @@ import {
   CardDescription,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { FaPencilAlt, FaPlane, FaMusic, FaCoffee } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaWpexplorer } from "react-icons/fa";
+
+import { CgGames } from "react-icons/cg";
+import { GrTechnology } from "react-icons/gr";
+import { FaCoffee } from "react-icons/fa";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About | Jannatul Ferdous",
+  title: "About | Toymur Rahman",
 };
 
 const AboutPage = () => {
   const interests = [
-    { icon: <FaPencilAlt size={24} />, label: "Drawing" },
-    { icon: <FaPlane size={24} />, label: "Travel" },
-    { icon: <FaMusic size={24} />, label: "Music" },
+    { icon: <FaWpexplorer size={24} />, label: "Explore gadgets" },
+    { icon: <CgGames size={24} />, label: "Video Games" },
+    { icon: <GrTechnology size={24} />, label: "learning Tech" },
     { icon: <FaCoffee size={24} />, label: "Coffee" },
   ];
 
@@ -29,7 +32,7 @@ const AboutPage = () => {
         <Card className="text-center gradiants self-start">
           <CardHeader className="flex flex-col items-center">
             <img
-              src="https://i.postimg.cc/BnZYDy8v/ul.png"
+              src="https://i.ibb.co/Fk3DQNWg/formal.png"
               alt="Profile"
               width="120"
               height="120"
@@ -37,7 +40,7 @@ const AboutPage = () => {
             />
 
             <CardTitle className="text-white mt-4 text-2xl sm:text-3xl">
-              Jannatul Ferdous
+              Toymur Rahman
             </CardTitle>
             <CardDescription className=" sm:text-base text-gray-400">
               MERN Stack Developer
@@ -45,16 +48,16 @@ const AboutPage = () => {
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="flex justify-center flex-wrap gap-4 text-white">
-              <a href="https://github.com/jannat710" target="_blank">
+              <a href="https://github.com/toymurrahman" target="_blank">
                 <FaGithub className="bg-[#383737] p-2 text-4xl rounded-full hover:bg-gray-600 transition" />
               </a>
-              <a href="https://www.linkedin.com/in/jannatul38/" target="_blank">
+              <a href="https://www.linkedin.com/in/toymur-rahman-tonmoy/" target="_blank">
                 <FaLinkedin className="bg-[#383737] p-2 text-4xl rounded-full hover:bg-gray-600 transition" />
               </a>
-              <a href="https://x.com/jannatul_zz" target="_blank">
+              <a href="https://x.com/ToymurRahman10" target="_blank">
                 <FaTwitter className="bg-[#383737] p-2 text-4xl rounded-full hover:bg-gray-600 transition" />
               </a>
-              <a href="https://www.facebook.com/jannatulfee" target="_blank">
+              <a href="https://www.facebook.com/toymur.rahmantonmoy" target="_blank">
                 <FaFacebook className="bg-[#383737] p-2 text-4xl rounded-full hover:bg-gray-600 transition" />
               </a>
             </div>
@@ -71,8 +74,8 @@ const AboutPage = () => {
             <h2 className="text-2xl font-semibold mb-3">About Me</h2>
             <p className="text-lg text-gray-200 mb-2">So, who am I?</p>
             <p className="text-base text-gray-400 leading-relaxed">
-              I'm Jannatul Ferdous, from Dhaka. I hold a BSc in Computer Science
-              Engineering from Daffodil International University (CGPA 3.47).
+              I'm Toymur Rahman, from Dhaka. I hold a BSc in Computer Science
+              Engineering from Institute of Science Trade and Technology (CGPA 3.19).
               Passionate about coding, problem-solving, and contributing to
               open-source.
             </p>
@@ -85,31 +88,16 @@ const AboutPage = () => {
                 <p>Phone:</p>
               </div>
               <div className="space-y-1">
-                <p>Jannatul Ferdous</p>
+                <p>Toymur Rahman</p>
                 <p>24</p>
                 <p>Dhaka, Bangladesh</p>
-                <p>jannatul0040@gmail.com</p>
-                <p>(+88) 01766401933</p>
+                <p>rahmantoymur2@gmail.com</p>
+                <p>(+88) 01623385441</p>
               </div>
             </div>
           </section>
 
-          {/* Experience */}
-          <section>
-            <h2 className="text-2xl font-semibold mb-3">Experience</h2>
-            <div>
-              <h3 className="text-lg font-medium">
-                MERN Stack Developer{" "}
-                <span className="text-gray-400 font-normal">| Antopolis</span>
-              </h3>
-              <p className="text-sm text-gray-400">Apr 2024 - Jul 2024</p>
-              <p className="mt-2 text-gray-400">
-                Built full-stack web applications using MongoDB, Express, React,
-                NextJS, and Node.js. Integrated REST APIs and worked in teams to
-                build scalable, responsive platforms.
-              </p>
-            </div>
-          </section>
+          
 
           {/* Interests */}
           <section className="py-6">

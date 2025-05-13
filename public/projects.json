@@ -1,90 +1,11 @@
 {
-  "teamProjects": [
+  "singleProjects": [
     {
-      "id": "1",
-      "title": "BasaFinder",
-      "image": "https://i.postimg.cc/W3HRdVpg/image.png",
-      "image2": "https://i.ibb.co.com/qF1HbPcH/bf2.jpg",
-      "image3": "https://i.ibb.co.com/svQRVq9y/bf3.jpg",
-      "image4": "https://i.ibb.co.com/5XsFbLLc/bf4.jpg",
-      "live": "https://basa-finder-psi.vercel.app/",
-      "description": "A full-stack rental housing solution with role-based dashboards for admin, landlords, and tenants.",
-      "coreFeatures": [
-        "JWT-based role authentication (Landlord, Tenant, Admin)",
-        "Browse, search, and filter rental listings",
-        "Landlords can create, edit, and delete listings",
-        "Tenants can submit rental requests",
-        "Payment option appears after request approval",
-        "Admins manage users and all listings",
-        "Email notifications for important actions",
-        "Mobile responsive and clean UI/UX",
-        "SEO-friendly using Next.js features"
-      ],
-      "challenges": [
-        "Ensuring a seamless user experience across multiple roles (Landlord, Tenant, Admin)",
-        "Handling real-time rental request approvals and payment flows",
-        "Ensuring secure authentication and data integrity for all users"
-      ],
-      "futurePlans": [
-        "Add machine learning to recommend listings based on user preferences",
-        "Introduce a mobile app for better accessibility",
-        "Enhance search filters with AI-based suggestions"
-      ],
-      "technology": [
-        "Next.js",
-        "TypeScript",
-        "Redux Toolkit",
-        "Node.js",
-        "Express",
-        "Mongoose",
-        "JWT"
-      ]
-    },
-    {
-      "id": "2",
-      "title": "BikeZone",
-      "image": "https://i.postimg.cc/2SD5kQKm/image.png",
-      "image2": "https://i.ibb.co.com/z9BYVtp/bz2.jpg",
-      "image3": "https://i.ibb.co.com/HT6jQNfr/bz3.jpg",
-      "image4": "https://i.ibb.co.com/DHszhJMP/bz4.jpg",
-      "live": "https://bike-zone-six.vercel.app/",
-      "description": "An e-commerce platform for buying and selling bikes with category filtering, secure login, and admin features.",
-      "coreFeatures": [
-        "Authentication & Authorization (JWT-based)",
-        "User registration and secure login",
-        "Product browsing with category filtering",
-        "Admin panel to manage products and users",
-        "Real-time order handling",
-        "Checkout with payment integration (SurjoPay)",
-        "Product management (CRUD)",
-        "Role-based access (Customer, Admin)"
-      ],
-      "challenges": [
-        "Maintaining security and data integrity in a dynamic e-commerce environment",
-        "Handling real-time updates for stock and orders",
-        "Optimizing the site for speed and mobile responsiveness"
-      ],
-      "futurePlans": [
-        "Expand product categories and introduce new features like reviews and ratings",
-        "Integrate more payment options for global customers",
-        "Improve search and filtering capabilities with AI-based suggestions"
-      ],
-      "technology": [
-        "React",
-        "TypeScript",
-        "Redux Toolkit",
-        "Node.js",
-        "Express",
-        "Mongoose"
-      ]
-    },
-    {
-      "id": "3",
+      "id": "4",
       "title": "QuickFit",
       "image": "https://i.postimg.cc/2yWzmydV/image.png",
       "image2": "https://i.ibb.co.com/G4zXW1NZ/qf3.jpg",
       "image3": "https://i.ibb.co.com/YB5sPqFD/qf4.jpg",
-      "image4": "https://i.ibb.co.com/JWfXKwwD/qf5.jpg",
       "live": "https://quick-fit-client.vercel.app/",
       "description": "A fitness tracking web app that allows users to log workouts, monitor progress, and stay fit.",
       "coreFeatures": [
@@ -107,152 +28,155 @@
         "Expand the e-shop with more fitness products and tools"
       ],
       "technology": ["NextJS", "Node.js", "Express", "Mongoose", "Firebase"]
-    }
-  ],
-  "singleProjects": [
-    {
-      "id": "4",
-      "title": "Eco Mart",
-      "image": "https://i.postimg.cc/gkd4KrbW/EcoMart.png",
-      "image2": "https://i.ibb.co.com/RqPh1V4/em2.jpg",
-      "image3": "https://i.ibb.co.com/DfKk9gs3/em3.jpg",
-      "image4": "https://i.ibb.co.com/VWg4vsZn/em4.jpg",
-      "live": "https://ecomart-client.vercel.app/",
-      "description": "Eco Mart is a full-stack e-commerce platform designed for seamless shopping and donation-based campaigns. It supports secure checkout, user authentication, admin management, and real-time product tracking.",
-      "coreFeatures": [
-        "Product listing and category management",
-        "Add to cart and secure checkout",
-        "Role-based dashboard for admin and users",
-        "Integrated payment system",
-        "Real-time order tracking",
-        "MongoDB for data persistence",
-        "Reusable components with shadcn/ui"
-      ],
-      "challenges": [
-        "Integrating secure and reliable payment gateways",
-        "Maintaining backend and frontend data sync",
-        "Ensuring scalable and modular project structure"
-      ],
-      "futurePlans": [
-        "Add product review and rating system",
-        "Integrate multiple vendor support",
-        "Enhance PWA support and offline capabilities"
-      ],
-      "technology": [
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "shadcn/ui",
-        "Node.js",
-        "Express.js",
-        "Mongoose",
-        "JWT",
-        "ShurjoPay Payment"
-      ]
     },
     {
       "id": "5",
-      "title": "Basa Finser (Renovate)",
-      "image": "https://i.postimg.cc/W3HRdVpg/image.png",
-      "image2": "https://i.ibb.co.com/qF1HbPcH/bf2.jpg",
-      "image3": "https://i.ibb.co.com/svQRVq9y/bf3.jpg",
-      "image4": "https://i.ibb.co.com/5XsFbLLc/bf4.jpg",
-      "live": "https://basa-finder-client-mu.vercel.app/",
-      "description": "A full-stack rental housing solution with role-based dashboards for admin, landlords, and tenants.",
+      "title": "Le CelesteBD",
+      "image": "https://i.postimg.cc/ZnjWbN5k/Screenshot-13.png",
+      "image2": "https://i.postimg.cc/rp6wLjN0/Screenshot-14.png",
+      "image3": "https://i.ibb.co/ymvZpPDt/Screenshot-15.png",
+      "live": "https://lecelestebd.web.app/",
+      "description": "Le CelesteBD is a full-stack restaurant web application for browsing menus, placing orders, making reservations, and processing payments securely. Admins can manage users, food items, reservations, and track revenue with a powerful dashboard .",
       "coreFeatures": [
-        "JWT-based role authentication (Landlord, Tenant, Admin)",
-        "Browse, search, and filter rental listings",
-        "Landlords can create, edit, and delete listings",
-        "Tenants can submit rental requests",
-        "Payment option appears after request approval",
-        "Admins manage users and all listings",
-        "Email notifications for important actions",
-        "Mobile responsive and clean UI/UX",
-        "SEO-friendly using Next.js features"
+        "JWT-based role authentication (User, Admin)",
+        "Browse and search full food menu with categories",
+        "Add to cart and place online food orders",
+        "Make table reservations with preferred time and date",
+        "Stripe-powered secure payment processing",
+        "View and cancel orders and reservation requests",
+        "Customers access a personalized user dashboard",
+        "Admins manage users, food items, reservations, and payments",
+        "Revenue tracking with Recharts-based visual dashboard",
+        "Interactive UI using Swiper, SweetAlert2, and Lottie",
+        "Mobile responsive and clean UI with Tailwind CSS",
+        "Email notifications for order and reservation updates",
+        "SEO-friendly routing with React Router DOM"
       ],
       "challenges": [
-        "Ensuring a seamless user experience across multiple roles (Landlord, Tenant, Admin)",
-        "Handling real-time rental request approvals and payment flows",
-        "Ensuring secure authentication and data integrity for all users"
+        "Implementing secure JWT-based role authentication and protected routes",
+        "Integrating Stripe for seamless payment flows and managing webhooks",
+        "Building a real-time reservation and order system with admin controls",
+        "Creating a responsive, animated UI with smooth form validation and feedback"
       ],
       "futurePlans": [
-        "Add machine learning to recommend listings based on user preferences",
-        "Introduce a mobile app for better accessibility",
-        "Enhance search filters with AI-based suggestions"
+        "Add multi-language support for broader user accessibility",
+        "Implement push/email notifications for order and reservation updates",
+        "Enable customer reviews and ratings for food items and service",
+        "Integrate advanced analytics for admin insights and sales trends"
       ],
       "technology": [
-        "Next.js",
-        "TypeScript",
+        "React 19",
+        "Firebase Authentication",
         "Node.js",
-        "Express",
-        "Mongoose",
+        "Express.js",
+        "MongoDB",
         "JWT",
-        "ShurjoPay Payment"
+        "Stripe Payment",
+        "Tanstack Query",
+        "Swiper",
+        "Recharts"
       ]
     },
 
     {
       "id": "6",
-      "title": "Donation Campaign",
-      "image": "https://i.postimg.cc/SQC4ydJs/image.png",
-      "live": "https://donation-campaign-project.netlify.app/",
-      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
+      "title": "Skill Match",
+      "image": "https://i.postimg.cc/R0z4YFvw/sm.png",
+      "image2": "https://i.ibb.co/Z6RBdQws/Screenshot-18.png",
+      "image3": "https://i.ibb.co/GfVZHdjd/Screenshot-19.png",
+      "live": "https://skillmatch-914bf.web.app/",
+      "description": "SkillMatch is a job placement platform connecting clients and freelancers, allowing job posting, bidding, and secure role-based access. It features job filtering, personalized dashboards, and real-time bidding workflows.",
       "coreFeatures": [
-        "Campaign creation",
-        "Donation tracking",
-        "Donor management"
+        "Job posting, editing, and deletion for clients",
+        "Freelancers can browse listings, place bids, and track job status",
+        "Job search and filtering by category, skills, budget, and date",
+        "Secure authentication with Firebase Auth, JWT, and real-time bidding workflows"
       ],
       "challenges": [
-        "Ensuring secure donations",
-        "Maintaining real-time updates on contributions"
+        "Implementing secure role-based authentication with Firebase Auth and JWT",
+        "Handling real-time bidding workflows and job status updates",
+        "Designing an intuitive job search, filtering system, and ensuring performance with large job listings"
       ],
       "futurePlans": [
-        "Integration with multiple payment gateways",
-        "Improved user interface for donors"
+        "Integrate advanced job matching algorithms for better freelancer-client pairing",
+        "Add in-app messaging and notifications for smoother communication",
+        "Implement a rating and review system for freelancers and clients"
       ],
-      "technology": ["React", "Tailwind"]
+      "technology": [
+        "React.js",
+        "Tailwind CSS",
+        "Axios",
+        "TanStack React Query",
+        "Firebase (Auth)",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT (Authentication)"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "NewsWave",
+      "image": "https://i.postimg.cc/C5tVsMvB/nw.png",
+      "live": "https://newswave-84009.web.app/",
+      "description": "NewsWave is a news aggregation platform that categorizes articles by topic, allowing users to explore the latest headlines. It features dynamic UI elements using React and Firebase for backend services.",
+      "coreFeatures": [
+        "Categorized news articles by topic (e.g., Sports, Technology, Politics)",
+        "Real-time updates and article fetching with Firebase integration",
+        "Dynamic UI with smooth scrolling using React Marquee and Fast Marquee",
+        "Search and filter articles by category and keywords, responsive design"
+      ],
+      "challenges": [
+        "Handling real-time news updates and ensuring efficient data fetching from Firebase",
+        "Designing a smooth and responsive UI with dynamic marquee and scrolling elements",
+        "Implementing an intuitive search and filter system for users to easily browse categories"
+      ],
+      "futurePlans": [
+        "Integrate personalized news recommendations based on user interests",
+        "Add user authentication for saving favorite articles and preferences",
+        "Implement push notifications for breaking news and real-time updates"
+      ],
+      "technology": [
+        "React.js",
+        "Firebase",
+        "Match-sorter",
+        "Moment.js",
+        "React Fast Marquee",
+        "React Router DOM",
+        "Sort-by"
+      ]
     },
     {
       "id": "7",
-      "title": "PH Tube",
-      "image": "https://i.postimg.cc/jqmD1ZBS/image.png",
-      "live": "https://ph-tube-website.netlify.app/",
-      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
+      "title": "Coffee Store",
+      "image": "https://i.postimg.cc/xdghPT8f/coffe1.jpg",
+      "image2": "https://i.ibb.co/xSkT2RGP/coffe2.jpg",
+      "image3": "https://i.ibb.co/xtNK8MxQ/coffee3.jpg",
+      "live": "https://client-coffee-store-exj8f1wlb-toymurs-projects.vercel.app/",
+      "description": "CoffeeStore is a full-stack app where users can add, update, and remove coffee items, and manage user data with Firebase Auth and MongoDB.",
       "coreFeatures": [
-        "Campaign creation",
-        "Donation tracking",
-        "Donor management"
+        "Coffee item management",
+        "User account control",
+        "Secure authentication"
       ],
       "challenges": [
-        "Ensuring secure donations",
-        "Maintaining real-time updates on contributions"
+        "Securely managing coffee and user data operations",
+        "Handling ObjectId queries and responsive UI with modals"
       ],
       "futurePlans": [
-        "Integration with multiple payment gateways",
-        "Improved user interface for donors"
+        "Implement admin dashboard and coffee analytics",
+        "Add image upload and dark mode support"
       ],
-      "technology": ["JavaScript", "Tailwind"]
-    },
-    {
-      "id": "7",
-      "title": "Summer Sale",
-      "image": "https://i.postimg.cc/vZdv6W73/image.png",
-      "live": "https://summer1-sale.netlify.app/",
-      "description": "A platform for managing and promoting donation campaigns. It allows users to view, contribute, and track various causes in need of support.",
-      "coreFeatures": [
-        "Campaign creation",
-        "Donation tracking",
-        "Donor management"
-      ],
-      "challenges": [
-        "Ensuring secure donations",
-        "Maintaining real-time updates on contributions"
-      ],
-      "futurePlans": [
-        "Integration with multiple payment gateways",
-        "Improved user interface for donors"
-      ],
-      "technology": ["React", "Tailwind"]
+      "technology": [
+        "React",
+        "React Router DOM 7",
+        "Tailwind CSS",
+        "Firebase Auth",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "SweetAlert2"
+      ]
     },
     {
       "id": "9",
